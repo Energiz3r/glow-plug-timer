@@ -1,0 +1,22 @@
+//menu structure
+//  - Glow Options
+//    1- Pre-Glow Duration (time before glow plug light goes out)
+//       4, 6*, 8, 10, 12
+//    2- Glow Duration (time to continue glow after light goes out)
+//       6, 10, 15*, 20, 25, 30, 40, 60, 120
+//    3- After Glow Duration (time for glow plugs to cycle on/off to 'keep warm' - 2 sec on, 2 sec off)
+//       disabled, 180, 240*, 300, 360, 480, 600
+//    4- After Glow Interval (x seconds on, x seconds off interval for after glow cycle)
+//       1, 2*, 3
+//    5- Glow Temp Threshold (degC above which glow plugs won't be used)
+//       disabled, 50, 55, 60, 65*, 70, 75, 80
+//  - Temp Alarm Options
+//    6- Temp "Alert" Threshold (discreet beeping)
+//       disabled, 95, 98, 100*, 105, 110, 115, 120, 125, 130
+//    7- Temp "Critical" Threshold (loud alarm)
+//       disabled, 95, 100, 105, 110*, 115, 120, 125, 130, 135
+//  - Voltage Alarm Options
+//    8- Voltage Alarm Mode
+//       disabled, low batt only (11.5V), not-charging only (12.5V), over-charging (15V), Normal* (both not charging & over charging)
+//  - Other
+//    9- Reset to Default

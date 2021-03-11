@@ -1,0 +1,30 @@
+relay module (5x ordered)
+	ea 7.9
+box
+	ea 3.076
+arduino nano
+	ea 6.5
+RJ45 port
+	ea 2.5
+8-pin plug/socket set
+	ea 13.8
+piezo buzzer
+	ea 2.95
+PCB
+	ea 4.926
+voltage sensor
+	ea 4.25
+
+TOTAL
+ea 45.902
+
+Components:
+Custom PCB
+Arduino nano + pin headers
+Dual Channel relay module
+RJ45 port
+8-pin plug/socket set
+buzzer
+button
+box
+voltage sensor

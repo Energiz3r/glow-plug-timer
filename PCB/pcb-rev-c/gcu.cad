@@ -1,0 +1,958 @@
+<ElectronicDesign Guid="8598f323-afc2-402c-b513-b40dcb152db3" Id="1">
+  <Prop Val="gcu" Nm="%%DESIGNNAME" />
+  <Prop Val="C:\Google Drive\Pajero\glow plug timer\pcb\gcu.cad" Nm="%%DESIGNFILENAME" />
+  <Prop Val="04:05:07.6748681" Nm="%%DESIGNTIME" />
+  <UsedPartTypes />
+  <Schematic Id="2" ActivePageRef="3">
+    <Prop Val="4278190335" Nm="%%SCHWIRECOLOR" />
+    <Prop Val="4278190335" Nm="%%SCHLINECOLOR" />
+    <Prop Val="100000bu" Nm="%%SCHLINEWIDTH" />
+    <Prop Val="220000000bu,170000000bu" Nm="%%DESIGNDEFAULTPAGESIZE" />
+    <Prop Val="12" Nm="%%DESIGNDEFAULTTEXTSIZE" />
+    <Prop Val="255" Nm="%%SCHFILLCOLOR" />
+    <Prop Val="4278190080" Nm="%%SCHPINNAMECOLOR" />
+    <Prop Val="4278190080" Nm="%%SCHPINNUMCOLOR" />
+    <Prop Val="6" Nm="%%SCHVOLTAGECOUNT" />
+    <Prop Val="+1.2V" Nm="%%SCHVOLTAGE" Idx="0" />
+    <Prop Val="+1.8V" Nm="%%SCHVOLTAGE" Idx="1" />
+    <Prop Val="+2.4V" Nm="%%SCHVOLTAGE" Idx="2" />
+    <Prop Val="+3.3V" Nm="%%SCHVOLTAGE" Idx="3" />
+    <Prop Val="+5V" Nm="%%SCHVOLTAGE" Idx="4" />
+    <Prop Val="+12V" Nm="%%SCHVOLTAGE" Idx="5" />
+    <Prop Val="abc" Nm="%%DESIGNCOMPANY" />
+    <Prop Val="A" Nm="%%DESIGNREVISION" />
+    <PartList />
+    <SchPage Id="3" Name="Sheet 1">
+      <Prop Val="220000000bu,170000000bu" Nm="%%DESIGNDEFAULTPAGESIZE" />
+      <Prop Val="12" Nm="%%DESIGNDEFAULTTEXTSIZE" />
+      <Prop Val="4278190335" Nm="%%SCHLINECOLOR" />
+      <Prop Val="255" Nm="%%SCHFILLCOLOR" />
+      <Prop Val="4278190080" Nm="%%SCHPINNAMECOLOR" />
+      <Prop Val="4278190080" Nm="%%SCHPINNUMCOLOR" />
+      <Prop Val="C" Nm="%%SCHPAGEFORMAT" />
+      <Prop Val="110000000bu,85000000bu" Nm="%%SCHPAGEVIEWCENTER" />
+      <Prop Val="110000000bu" Nm="%%SCHPAGEVIEWRADIUS" />
+    </SchPage>
+  </Schematic>
+  <Board Id="88">
+    <Prop Val="In" Nm="%%PCBCURRENTUNITS" />
+    <Prop Val="Top" Nm="%%PCBCURRENTLAYER" />
+    <Prop Val="250000bu,250000bu" Nm="%%PCBGRIDSIZE" />
+    <Prop Val="False" Nm="%%PCBHICONTRAST" />
+    <Prop Val="65312" Nm="%%PCBHICONTRASTCOLOR" />
+    <Prop Val="4279505940" Nm="%%PCBDIMCOLOR" />
+    <Prop Val="AllPickable" Nm="%%PCBPICKFLAGS" />
+    <Prop Val="32969050bu,10171894bu" Nm="%%PCBVIEWCENTER" />
+    <Prop Val="23335471bu" Nm="%%PCBVIEWRADIUS" />
+    <Prop Val="4278255360" Nm="%%PCBGRIDCOLOR" />
+    <Prop Val="3372220415" Nm="%%PCBPINNAMECOLOR" />
+    <Prop Val="3372220415" Nm="%%PCBNETNAMECOLOR" />
+    <Prop Val="4294967040" Nm="%%PCBRATCOLOR" />
+    <Prop Val="True" Nm="%%PCBCOPPERPOUR" />
+    <Prop Val="FR4" Nm="%%PCBBOARDMATERIAL" />
+    <Prop Val="0.062" Nm="%%PCBBOARDTHICKNESS" />
+    <Prop Val="OneOunce" Nm="%%PCBCOPPERWEIGHT" />
+    <Prop Val="Default" Nm="%%PCBFINISH" />
+    <Prop Val="True" Nm="%%PCBADDSOLDERMASK" />
+    <Prop Val="Default" Nm="%%PCBMASKTYPE" />
+    <Prop Val="Default" Nm="%%PCBMASKCOLOR" />
+    <Prop Val="True" Nm="%%PCBTOPSILK" />
+    <Prop Val="True" Nm="%%PCBBOTSILK" />
+    <Prop Val="Default" Nm="%%PCBSILKCOLOR" />
+    <Prop Val="2" Nm="%%PCBLAYERCOUNT" />
+    <Prop Val="False" Nm="%%PCBUSEWIDTHPERLAYER" />
+    <Prop Val="80000bu" Nm="%%PCBDEFAULTTRACEWIDTH" />
+    <Prop Val="30000bu" Nm="%%PCBDEFAULTSPACING" />
+    <Prop Val="30000bu" Nm="%%PCBDEFAULTTHERMALWIDTH" />
+    <Prop Val="135000bu" Nm="%%PCBDEFAULTVIADRILL" />
+    <Prop Val="70000bu" Nm="%%PCBDEFAULTVIAANNULAR" />
+    <Prop Val="50000000000" Nm="%%PCBDEFAULTPOURMINSIZE" />
+    <Prop Val="80000bu" Nm="%%PCBRULESMINTRACE" />
+    <Prop Val="80000bu" Nm="%%PCBRULESMINSPACE" />
+    <Prop Val="135000bu" Nm="%%PCBRULESMINDRILLDIAM" />
+    <Prop Val="2500000bu" Nm="%%PCBRULESMAXDRILLDIAM" />
+    <Prop Val="70000bu" Nm="%%PCBRULESMINANNULAR" />
+    <Prop Val="200000bu" Nm="%%PCBRULESMINDISTTOEDGE" />
+    <Prop Val="False" Nm="%%PCBUSEMICROVIAS" />
+    <Prop Val="False" Nm="%%PCBUSEBLINDVIAS" />
+    <Prop Val="False" Nm="%%PCBUSEBURIEDVIAS" />
+    <Prop Val="False" Nm="%%PCBPLUGVIAS" />
+    <Prop Val="True" Nm="%%PCBTENTVIAS" />
+    <Prop Val="True" Nm="%%PCBREMOVEINNERPADS" />
+    <Prop Val="False" Nm="%%PCBUNCONNECTEDTPS" />
+    <Prop Val="False" Nm="%%PCBBEVELBOARDEDGE" />
+    <Prop Val="False" Nm="%%PCBCONSOLIDATEDRILLS" />
+    <Prop Val="Moderate" Nm="%%PCBPLACERPACKING" />
+    <Prop Val="Medium" Nm="%%PCBPLACEREFFORT" />
+    <Prop Val="RotateAny" Nm="%%PCBPLACERDISCRETEROT" />
+    <Prop Val="DoNotRotate" Nm="%%PCBPLACERCHIPROT" />
+    <Prop Val="False" Nm="%%PCBVIAINPAD" />
+    <Prop Val="False" Nm="%%PCBLARGEDECOUPLINGVIAS" />
+    <Prop Val="EncourageVias" Nm="%%PCBROUTERVIAUSAGE1" />
+    <Prop Val="Normal" Nm="%%PCBROUTERVIAUSAGE2" />
+    <Prop Val="10" Nm="%%PCBROUTERATTEMPTS1" />
+    <Prop Val="50" Nm="%%PCBROUTERATTEMPTS2" />
+    <Prop Val="250000bu" Nm="%%PCBROUTERGRID1" />
+    <Prop Val="250000bu" Nm="%%PCBROUTERGRID2" />
+    <Prop Val="Rats" Nm="%%PCBLAYERNAME" Idx="0" />
+    <Prop Val="3372220160" Nm="%%PCBLAYERCOLOR" Idx="0" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="0" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="0" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="0" />
+    <Prop Val="Horz" Nm="%%PCBROUTERLAYERDIR" Idx="0" />
+    <Prop Val="Top" Nm="%%PCBLAYERNAME" Idx="1" />
+    <Prop Val="3372154880" Nm="%%PCBLAYERCOLOR" Idx="1" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="1" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="1" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="1" />
+    <Prop Val="Vert" Nm="%%PCBROUTERLAYERDIR" Idx="1" />
+    <Prop Val="In1" Nm="%%PCBLAYERNAME" Idx="2" />
+    <Prop Val="3355492096" Nm="%%PCBLAYERCOLOR" Idx="2" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="2" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="2" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="2" />
+    <Prop Val="Horz" Nm="%%PCBROUTERLAYERDIR" Idx="2" />
+    <Prop Val="In2" Nm="%%PCBLAYERNAME" Idx="3" />
+    <Prop Val="3363832063" Nm="%%PCBLAYERCOLOR" Idx="3" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="3" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="3" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="3" />
+    <Prop Val="Vert" Nm="%%PCBROUTERLAYERDIR" Idx="3" />
+    <Prop Val="In3" Nm="%%PCBLAYERNAME" Idx="4" />
+    <Prop Val="3355486458" Nm="%%PCBLAYERCOLOR" Idx="4" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="4" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="4" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="4" />
+    <Prop Val="Horz" Nm="%%PCBROUTERLAYERDIR" Idx="4" />
+    <Prop Val="In4" Nm="%%PCBLAYERNAME" Idx="5" />
+    <Prop Val="3372187648" Nm="%%PCBLAYERCOLOR" Idx="5" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="5" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="5" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="5" />
+    <Prop Val="Vert" Nm="%%PCBROUTERLAYERDIR" Idx="5" />
+    <Prop Val="In5" Nm="%%PCBLAYERNAME" Idx="6" />
+    <Prop Val="3355443455" Nm="%%PCBLAYERCOLOR" Idx="6" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="6" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="6" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="6" />
+    <Prop Val="Horz" Nm="%%PCBROUTERLAYERDIR" Idx="6" />
+    <Prop Val="In6" Nm="%%PCBLAYERNAME" Idx="7" />
+    <Prop Val="3365495296" Nm="%%PCBLAYERCOLOR" Idx="7" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="7" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="7" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="7" />
+    <Prop Val="Vert" Nm="%%PCBROUTERLAYERDIR" Idx="7" />
+    <Prop Val="In7" Nm="%%PCBLAYERNAME" Idx="8" />
+    <Prop Val="3364407808" Nm="%%PCBLAYERCOLOR" Idx="8" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="8" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="8" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="8" />
+    <Prop Val="Horz" Nm="%%PCBROUTERLAYERDIR" Idx="8" />
+    <Prop Val="In8" Nm="%%PCBLAYERNAME" Idx="9" />
+    <Prop Val="3355484250" Nm="%%PCBLAYERCOLOR" Idx="9" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="9" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="9" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="9" />
+    <Prop Val="Vert" Nm="%%PCBROUTERLAYERDIR" Idx="9" />
+    <Prop Val="In9" Nm="%%PCBLAYERNAME" Idx="10" />
+    <Prop Val="3365929100" Nm="%%PCBLAYERCOLOR" Idx="10" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="10" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="10" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="10" />
+    <Prop Val="Horz" Nm="%%PCBROUTERLAYERDIR" Idx="10" />
+    <Prop Val="In10" Nm="%%PCBLAYERNAME" Idx="11" />
+    <Prop Val="3362017450" Nm="%%PCBLAYERCOLOR" Idx="11" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="11" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="11" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="11" />
+    <Prop Val="Vert" Nm="%%PCBROUTERLAYERDIR" Idx="11" />
+    <Prop Val="In11" Nm="%%PCBLAYERNAME" Idx="12" />
+    <Prop Val="3355489450" Nm="%%PCBLAYERCOLOR" Idx="12" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="12" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="12" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="12" />
+    <Prop Val="Horz" Nm="%%PCBROUTERLAYERDIR" Idx="12" />
+    <Prop Val="In12" Nm="%%PCBLAYERNAME" Idx="13" />
+    <Prop Val="3362043050" Nm="%%PCBLAYERCOLOR" Idx="13" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="13" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="13" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="13" />
+    <Prop Val="Vert" Nm="%%PCBROUTERLAYERDIR" Idx="13" />
+    <Prop Val="In13" Nm="%%PCBLAYERNAME" Idx="14" />
+    <Prop Val="3368596650" Nm="%%PCBLAYERCOLOR" Idx="14" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="14" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="14" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="14" />
+    <Prop Val="Horz" Nm="%%PCBROUTERLAYERDIR" Idx="14" />
+    <Prop Val="In14" Nm="%%PCBLAYERNAME" Idx="15" />
+    <Prop Val="3361996970" Nm="%%PCBLAYERCOLOR" Idx="15" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="15" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="15" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="15" />
+    <Prop Val="Vert" Nm="%%PCBROUTERLAYERDIR" Idx="15" />
+    <Prop Val="In15" Nm="%%PCBLAYERNAME" Idx="16" />
+    <Prop Val="3355463850" Nm="%%PCBLAYERCOLOR" Idx="16" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="16" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="16" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="16" />
+    <Prop Val="Horz" Nm="%%PCBROUTERLAYERDIR" Idx="16" />
+    <Prop Val="In16" Nm="%%PCBLAYERNAME" Idx="17" />
+    <Prop Val="3362017380" Nm="%%PCBLAYERCOLOR" Idx="17" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="17" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="17" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="17" />
+    <Prop Val="Vert" Nm="%%PCBROUTERLAYERDIR" Idx="17" />
+    <Prop Val="In17" Nm="%%PCBLAYERNAME" Idx="18" />
+    <Prop Val="3362017380" Nm="%%PCBLAYERCOLOR" Idx="18" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="18" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="18" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="18" />
+    <Prop Val="Horz" Nm="%%PCBROUTERLAYERDIR" Idx="18" />
+    <Prop Val="In18" Nm="%%PCBLAYERNAME" Idx="19" />
+    <Prop Val="3368570980" Nm="%%PCBLAYERCOLOR" Idx="19" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="19" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="19" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="19" />
+    <Prop Val="Vert" Nm="%%PCBROUTERLAYERDIR" Idx="19" />
+    <Prop Val="In19" Nm="%%PCBLAYERNAME" Idx="20" />
+    <Prop Val="3355489280" Nm="%%PCBLAYERCOLOR" Idx="20" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="20" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="20" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="20" />
+    <Prop Val="Horz" Nm="%%PCBROUTERLAYERDIR" Idx="20" />
+    <Prop Val="In20" Nm="%%PCBLAYERNAME" Idx="21" />
+    <Prop Val="3355463780" Nm="%%PCBLAYERCOLOR" Idx="21" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="21" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="21" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="21" />
+    <Prop Val="Vert" Nm="%%PCBROUTERLAYERDIR" Idx="21" />
+    <Prop Val="In21" Nm="%%PCBLAYERNAME" Idx="22" />
+    <Prop Val="3355463880" Nm="%%PCBLAYERCOLOR" Idx="22" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="22" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="22" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="22" />
+    <Prop Val="Horz" Nm="%%PCBROUTERLAYERDIR" Idx="22" />
+    <Prop Val="In22" Nm="%%PCBLAYERNAME" Idx="23" />
+    <Prop Val="3368550450" Nm="%%PCBLAYERCOLOR" Idx="23" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="23" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="23" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="23" />
+    <Prop Val="Vert" Nm="%%PCBROUTERLAYERDIR" Idx="23" />
+    <Prop Val="In23" Nm="%%PCBLAYERNAME" Idx="24" />
+    <Prop Val="3361996950" Nm="%%PCBLAYERCOLOR" Idx="24" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="24" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="24" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="24" />
+    <Prop Val="Horz" Nm="%%PCBROUTERLAYERDIR" Idx="24" />
+    <Prop Val="In24" Nm="%%PCBLAYERNAME" Idx="25" />
+    <Prop Val="3355443350" Nm="%%PCBLAYERCOLOR" Idx="25" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="25" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="25" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="25" />
+    <Prop Val="Vert" Nm="%%PCBROUTERLAYERDIR" Idx="25" />
+    <Prop Val="In25" Nm="%%PCBLAYERNAME" Idx="26" />
+    <Prop Val="3368588970" Nm="%%PCBLAYERCOLOR" Idx="26" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="26" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="26" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="26" />
+    <Prop Val="Horz" Nm="%%PCBROUTERLAYERDIR" Idx="26" />
+    <Prop Val="In26" Nm="%%PCBLAYERNAME" Idx="27" />
+    <Prop Val="3362035370" Nm="%%PCBLAYERCOLOR" Idx="27" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="27" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="27" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="27" />
+    <Prop Val="Vert" Nm="%%PCBROUTERLAYERDIR" Idx="27" />
+    <Prop Val="In27" Nm="%%PCBLAYERNAME" Idx="28" />
+    <Prop Val="3355481770" Nm="%%PCBLAYERCOLOR" Idx="28" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="28" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="28" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="28" />
+    <Prop Val="Horz" Nm="%%PCBROUTERLAYERDIR" Idx="28" />
+    <Prop Val="In28" Nm="%%PCBLAYERNAME" Idx="29" />
+    <Prop Val="3368601670" Nm="%%PCBLAYERCOLOR" Idx="29" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="29" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="29" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="29" />
+    <Prop Val="Vert" Nm="%%PCBROUTERLAYERDIR" Idx="29" />
+    <Prop Val="Bot" Nm="%%PCBLAYERNAME" Idx="30" />
+    <Prop Val="3355471359" Nm="%%PCBLAYERCOLOR" Idx="30" />
+    <Prop Val="70000bu" Nm="%%PCBLAYERTRACEWIDTH" Idx="30" />
+    <Prop Val="False" Nm="%%PCBLAYERISPLANE" Idx="30" />
+    <Prop Val="True" Nm="%%PCBROUTERLAYERENABLED" Idx="30" />
+    <Prop Val="Horz" Nm="%%PCBROUTERLAYERDIR" Idx="30" />
+    <Prop Val="Top Silk" Nm="%%PCBLAYERNAME" Idx="31" />
+    <Prop Val="3372220415" Nm="%%PCBLAYERCOLOR" Idx="31" />
+    <Prop Val="Bottom Silk" Nm="%%PCBLAYERNAME" Idx="32" />
+    <Prop Val="3363798911" Nm="%%PCBLAYERCOLOR" Idx="32" />
+    <Prop Val="Top Assy" Nm="%%PCBLAYERNAME" Idx="33" />
+    <Prop Val="4294967040" Nm="%%PCBLAYERCOLOR" Idx="33" />
+    <Prop Val="Bottom Assy" Nm="%%PCBLAYERNAME" Idx="34" />
+    <Prop Val="3363798784" Nm="%%PCBLAYERCOLOR" Idx="34" />
+    <Prop Val="Top Mask" Nm="%%PCBLAYERNAME" Idx="35" />
+    <Prop Val="3355489280" Nm="%%PCBLAYERCOLOR" Idx="35" />
+    <Prop Val="Botttom Mask" Nm="%%PCBLAYERNAME" Idx="36" />
+    <Prop Val="3355463680" Nm="%%PCBLAYERCOLOR" Idx="36" />
+    <Prop Val="Top Paste" Nm="%%PCBLAYERNAME" Idx="37" />
+    <Prop Val="3367239860" Nm="%%PCBLAYERCOLOR" Idx="37" />
+    <Prop Val="Bottom Paste" Nm="%%PCBLAYERNAME" Idx="38" />
+    <Prop Val="3361996900" Nm="%%PCBLAYERCOLOR" Idx="38" />
+    <Prop Val="Fab1" Nm="%%PCBLAYERNAME" Idx="39" />
+    <Prop Val="4271073941" Nm="%%PCBLAYERCOLOR" Idx="39" />
+    <Prop Val="Fab2" Nm="%%PCBLAYERNAME" Idx="40" />
+    <Prop Val="4268397960" Nm="%%PCBLAYERCOLOR" Idx="40" />
+    <Prop Val="Last Pcb Layer" Nm="%%PCBLAYERNAME" Idx="41" />
+    <Prop Val="0" Nm="%%PCBLAYERCOLOR" Idx="41" />
+    <Prop Val="Footprint Surface" Nm="%%PCBLAYERNAME" Idx="42" />
+    <Prop Val="0" Nm="%%PCBLAYERCOLOR" Idx="42" />
+    <Prop Val="Footprint Inner" Nm="%%PCBLAYERNAME" Idx="43" />
+    <Prop Val="0" Nm="%%PCBLAYERCOLOR" Idx="43" />
+    <Prop Val="Footprint Plane" Nm="%%PCBLAYERNAME" Idx="44" />
+    <Prop Val="0" Nm="%%PCBLAYERCOLOR" Idx="44" />
+    <Prop Val="Footprint Mask" Nm="%%PCBLAYERNAME" Idx="45" />
+    <Prop Val="0" Nm="%%PCBLAYERCOLOR" Idx="45" />
+    <Prop Val="Footprint Silk" Nm="%%PCBLAYERNAME" Idx="46" />
+    <Prop Val="0" Nm="%%PCBLAYERCOLOR" Idx="46" />
+    <Prop Val="Footprint Paste" Nm="%%PCBLAYERNAME" Idx="47" />
+    <Prop Val="0" Nm="%%PCBLAYERCOLOR" Idx="47" />
+    <Prop Val="Footprint Assy" Nm="%%PCBLAYERNAME" Idx="48" />
+    <Prop Val="0" Nm="%%PCBLAYERCOLOR" Idx="48" />
+    <Prop Val="Footprint Fab" Nm="%%PCBLAYERNAME" Idx="49" />
+    <Prop Val="0" Nm="%%PCBLAYERCOLOR" Idx="49" />
+    <Prop Val="Footprint Court" Nm="%%PCBLAYERNAME" Idx="50" />
+    <Prop Val="0" Nm="%%PCBLAYERCOLOR" Idx="50" />
+    <Prop Val="Footprint Height" Nm="%%PCBLAYERNAME" Idx="51" />
+    <Prop Val="0" Nm="%%PCBLAYERCOLOR" Idx="51" />
+    <Prop Val="Last Footprint Layer" Nm="%%PCBLAYERNAME" Idx="52" />
+    <Prop Val="0" Nm="%%PCBLAYERCOLOR" Idx="52" />
+    <Prop Val="All Layers" Nm="%%PCBLAYERNAME" Idx="53" />
+    <Prop Val="3372220415" Nm="%%PCBLAYERCOLOR" Idx="53" />
+    <Poly Id="89" Name="" Type="BoardOutline" Layer="AllLayers" LineWidth="250000bu">
+      <Crn X="0bu" Y="0bu" />
+      <Crn X="37401500bu" Y="0bu" />
+      <Crn X="37401500bu" Y="22047200bu" />
+      <Crn X="0bu" Y="22047200bu" />
+      <Crn X="0bu" Y="0bu" />
+    </Poly>
+    <Pad Id="90" X="35629844bu" Y="1771654bu" Name="_PAD35" Width="1181102bu" Height="1181102bu" Drill="787402bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="False" />
+    <Pad Id="91" X="1771654bu" Y="1771654bu" Name="_PAD36" Width="1181102bu" Height="1181102bu" Drill="787402bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="92" X="1771654bu" Y="20275552bu" Name="_PAD37" Width="1181102bu" Height="1181102bu" Drill="787402bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="93" X="35629844bu" Y="20275552bu" Name="_PAD38" Width="1181102bu" Height="1181102bu" Drill="787402bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="94" X="24000000bu" Y="12000000bu" Name="_PAD40" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="False" Thermals="True" />
+    <Pad Id="95" X="25000000bu" Y="12000000bu" Name="_PAD41" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="96" X="26000000bu" Y="12000000bu" Name="_PAD42" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="97" X="27000000bu" Y="12000000bu" Name="_PAD43" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Poly Id="98" Name="" Type="Outline" Layer="SsTop" LineWidth="100000bu">
+      <Crn X="7110292bu" Y="15252074bu" />
+      <Crn X="14590630bu" Y="15252074bu" />
+      <Crn X="14590630bu" Y="9346544bu" />
+      <Crn X="7110292bu" Y="9346544bu" />
+      <Crn X="7110292bu" Y="15252074bu" />
+    </Poly>
+    <Poly Id="99" Name="" Type="Outline" Layer="SsTop" LineWidth="100000bu">
+      <Crn X="7086636bu" Y="21653610bu" />
+      <Crn X="14566974bu" Y="21653610bu" />
+      <Crn X="14566974bu" Y="15748080bu" />
+      <Crn X="7086636bu" Y="15748080bu" />
+      <Crn X="7086636bu" Y="21653610bu" />
+      <Crn X="7086636bu" Y="21653610bu" />
+    </Poly>
+    <Text Id="100" String="VIN" Rot="270" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="20462948bu" Y="9327086bu" />
+    <Text Id="101" String="GND" Rot="270" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="22462948bu" Y="8827086bu" />
+    <Text Id="102" String="5V" Rot="270" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="24462948bu" Y="8327086bu" />
+    <Text Id="103" String="A7" Rot="270" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="25462948bu" Y="8327086bu" />
+    <Text Id="104" String="A6" Rot="270" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="26462948bu" Y="8327086bu" />
+    <Text Id="105" String="SCL" Rot="270" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="27462948bu" Y="8327086bu" />
+    <Text Id="106" String="SDA" Rot="270" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="28462948bu" Y="8327086bu" />
+    <Text Id="107" String="A3" Rot="270" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="29462948bu" Y="8327086bu" />
+    <Text Id="108" String="A2" Rot="270" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="30462948bu" Y="8327086bu" />
+    <Text Id="109" String="A1" Rot="270" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="31462948bu" Y="8327086bu" />
+    <Text Id="110" String="A0" Rot="270" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="32462948bu" Y="8327086bu" />
+    <Text Id="111" String="AREF" Rot="270" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="33462948bu" Y="8327086bu" />
+    <Text Id="112" String="3.3V" Rot="270" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="34462948bu" Y="8327086bu" />
+    <Text Id="113" String="D13" Rot="270" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="35462948bu" Y="8327086bu" />
+    <Text Id="114" String="D12" Rot="90" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="36462948bu" Y="3827086bu" />
+    <Text Id="115" String="D11" Rot="90" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="35462948bu" Y="3827086bu" />
+    <Text Id="116" String="D10" Rot="90" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="34462948bu" Y="3827086bu" />
+    <Text Id="117" String="D9" Rot="90" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="33462948bu" Y="3827086bu" />
+    <Text Id="118" String="D8" Rot="90" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="32462948bu" Y="3827086bu" />
+    <Text Id="119" String="D7" Rot="90" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="31462948bu" Y="3827086bu" />
+    <Text Id="120" String="D6" Rot="90" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="30462948bu" Y="3827086bu" />
+    <Text Id="121" String="D5" Rot="90" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="29462948bu" Y="3827086bu" />
+    <Text Id="122" String="D4" Rot="90" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="28462948bu" Y="3827086bu" />
+    <Text Id="123" String="D3" Rot="90" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="27462948bu" Y="3827086bu" />
+    <Text Id="124" String="D2" Rot="90" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="26462948bu" Y="3827086bu" />
+    <Text Id="125" String="GND" Rot="90" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="25462948bu" Y="3827086bu" />
+    <Text Id="126" String="RX" Rot="90" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="23462900bu" Y="3327100bu" />
+    <Text Id="127" String="TX" Rot="90" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="21462900bu" Y="2327100bu" />
+    <Pad Id="128" X="8000000bu" Y="16500000bu" Name="_PAD44" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="False" Thermals="True" />
+    <Pad Id="129" X="8000000bu" Y="21000000bu" Name="_PAD45" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="False" Thermals="True" />
+    <Pad Id="130" X="13000000bu" Y="21000000bu" Name="_PAD49" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="False" Thermals="True" />
+    <Pad Id="131" X="13000000bu" Y="16500000bu" Name="_PAD51" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="False" Thermals="True" />
+    <Pad Id="132" X="13750000bu" Y="18750000bu" Name="_PAD52" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="False" Thermals="True" />
+    <Pad Id="133" X="8000000bu" Y="10000000bu" Name="_PAD46" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="False" Thermals="True" />
+    <Pad Id="134" X="8000000bu" Y="14500000bu" Name="_PAD47" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="False" Thermals="True" />
+    <Pad Id="135" X="13000000bu" Y="14500000bu" Name="_PAD50" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="False" Thermals="True" />
+    <Pad Id="136" X="13000000bu" Y="10000000bu" Name="_PAD53" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="False" Thermals="True" />
+    <Pad Id="137" X="13750000bu" Y="12250000bu" Name="_PAD54" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="False" Thermals="True" />
+    <Text Id="138" String="IN1" Rot="0" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="11000000bu" Y="20500000bu" />
+    <Text Id="139" String="IN2" Rot="0" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="10750000bu" Y="14000000bu" />
+    <Text Id="140" String="COM" Rot="0" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="11250000bu" Y="18250000bu" />
+    <Text Id="141" String="NC" Rot="90" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="9500000bu" Y="16000000bu" />
+    <Text Id="142" String="5V" Rot="90" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="24500000bu" Y="12500000bu" />
+    <Text Id="143" String="IN1" Rot="90" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="25500000bu" Y="12500000bu" />
+    <Text Id="144" String="IN2" Rot="90" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="26500000bu" Y="12500000bu" />
+    <Text Id="145" String="GND" Rot="90" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="27500000bu" Y="12500000bu" />
+    <Pad Id="146" X="30000000bu" Y="12000000bu" Name="_PAD55" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="147" X="31000000bu" Y="12000000bu" Name="_PAD56" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="148" X="32000000bu" Y="12000000bu" Name="_PAD57" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Text Id="149" String="VCC" Rot="90" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="31500000bu" Y="12500000bu" />
+    <Text Id="150" String="JD" Rot="90" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="32500000bu" Y="12500000bu" />
+    <Poly Id="151" Name="" Type="Outline" Layer="Top" LineWidth="100000bu">
+      <Crn X="31000000bu" Y="12000000bu" />
+      <Crn X="32000000bu" Y="12000000bu" />
+    </Poly>
+    <Pad Id="152" X="15500000bu" Y="21000000bu" Name="_PAD64" Width="750000bu" Height="750000bu" Drill="0bu" IsDrillOffset="False" Layer="Top" Rot="0" IsRound="False" Thermals="True" />
+    <Pad Id="153" X="15500000bu" Y="20000000bu" Name="_PAD65" Width="750000bu" Height="750000bu" Drill="0bu" IsDrillOffset="False" Layer="Top" Rot="0" IsRound="False" Thermals="True" />
+    <Poly Id="154" Name="" Type="Outline" Layer="Top" LineWidth="100000bu">
+      <Crn X="15500000bu" Y="21000000bu" />
+      <Crn X="13000000bu" Y="21000000bu" />
+    </Poly>
+    <Poly Id="155" Name="" Type="Outline" Layer="Top" LineWidth="100000bu">
+      <Crn X="15500000bu" Y="20000000bu" />
+      <Crn X="15500000bu" Y="15500000bu" />
+      <Crn X="14500000bu" Y="14500000bu" />
+      <Crn X="13000000bu" Y="14500000bu" />
+    </Poly>
+    <Text Id="156" String="1" Rot="0" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="16000000bu" Y="20500000bu" />
+    <Text Id="157" String="2" Rot="0" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="16000000bu" Y="19500000bu" />
+    <Pad Id="158" X="3000000bu" Y="18000000bu" Name="_PAD31" Width="2362200bu" Height="1181100bu" Drill="590600bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="159" X="3000000bu" Y="16000000bu" Name="_PAD32" Width="2362200bu" Height="1181100bu" Drill="590600bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="160" X="3000000bu" Y="14000000bu" Name="_PAD33" Width="2362200bu" Height="1181100bu" Drill="590600bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="161" X="3000000bu" Y="12000000bu" Name="_PAD34" Width="2362200bu" Height="1181100bu" Drill="590600bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="162" X="3000000bu" Y="10000000bu" Name="_PAD39" Width="2362200bu" Height="1181100bu" Drill="590600bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="163" X="3000000bu" Y="8000000bu" Name="_PAD48" Width="2362200bu" Height="1181100bu" Drill="590600bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="164" X="3000000bu" Y="6000000bu" Name="_PAD58" Width="2362200bu" Height="1181100bu" Drill="590600bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="165" X="3000000bu" Y="4000000bu" Name="_PAD59" Width="2362200bu" Height="1181100bu" Drill="590600bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Text Id="169" String="COM" Rot="0" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="11250000bu" Y="11750000bu" />
+    <Text Id="170" String="VCC" Rot="0" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="10500000bu" Y="16000000bu" />
+    <Text Id="171" String="VCC" Rot="0" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="10500000bu" Y="9500000bu" />
+    <Pad Id="172" X="14750000bu" Y="16500000bu" Name="_PAD60" Width="393700bu" Height="393700bu" Drill="196850bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Text Id="173" String="NO" Rot="0" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="8500000bu" Y="14000000bu" />
+    <Text Id="174" String="NC" Rot="0" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="8500000bu" Y="9500000bu" />
+    <Text Id="175" String="LAMP" Rot="0" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="7250000bu" Y="11750000bu" />
+    <Text Id="176" String="GLOW" Rot="0" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="7250000bu" Y="18250000bu" />
+    <Text Id="177" String="OUT" Rot="0" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="8500000bu" Y="20500000bu" />
+    <Text Id="178" String="12V" Rot="0" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="4250000bu" Y="15500000bu" />
+    <Text Id="179" String="GLOW" Rot="0" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="4250000bu" Y="13500000bu" />
+    <Text Id="180" String="LAMP" Rot="0" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="4250000bu" Y="11500000bu" />
+    <Poly Id="182" Name="" Type="Outline" Layer="SsTop" LineWidth="100000bu">
+      <Crn X="7874040bu" Y="7874040bu" />
+      <Crn X="7874040bu" Y="0bu" />
+      <Crn X="14173272bu" Y="0bu" />
+      <Crn X="14173272bu" Y="7874040bu" />
+      <Crn X="7874040bu" Y="7874040bu" />
+    </Poly>
+    <Pad Id="183" X="9299214bu" Y="6348426bu" Name="_PAD71" Width="787402bu" Height="787402bu" Drill="354331bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="184" X="10299214bu" Y="6348426bu" Name="_PAD72" Width="787402bu" Height="787402bu" Drill="354331bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="185" X="11299214bu" Y="6348426bu" Name="_PAD73" Width="787402bu" Height="787402bu" Drill="354331bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="186" X="12299214bu" Y="6348426bu" Name="_PAD74" Width="787402bu" Height="787402bu" Drill="354331bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="187" X="9799214bu" Y="7348426bu" Name="_PAD75" Width="787402bu" Height="787402bu" Drill="354331bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="188" X="10799214bu" Y="7348426bu" Name="_PAD76" Width="787402bu" Height="787402bu" Drill="354331bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="189" X="11799214bu" Y="7348426bu" Name="_PAD77" Width="787402bu" Height="787402bu" Drill="354331bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="190" X="12799214bu" Y="7348426bu" Name="_PAD78" Width="787402bu" Height="787402bu" Drill="354331bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="191" X="8799214bu" Y="3848426bu" Name="_PAD62" Width="1574803bu" Height="1574803bu" Drill="1259843bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True">
+      <Prop Val="True" Nm="%%PCBPADNONPLATED" />
+    </Pad>
+    <Pad Id="192" X="13299214bu" Y="3848426bu" Name="_PAD63" Width="1574803bu" Height="1574803bu" Drill="1259843bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True">
+      <Prop Val="True" Nm="%%PCBPADNONPLATED" />
+    </Pad>
+    <Text Id="193" String="1" Rot="0" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="8250000bu" Y="5750000bu" />
+    <Text Id="194" String="2" Rot="0" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="8750000bu" Y="6750000bu" />
+    <Text Id="195" String="LCD" Rot="90" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="7625000bu" Y="375000bu" />
+    <Pad Id="196" X="16500000bu" Y="2500000bu" Name="_PAD67" Width="787402bu" Height="787402bu" Drill="354331bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="197" X="18500000bu" Y="2500000bu" Name="_PAD68" Width="787402bu" Height="787402bu" Drill="354331bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Poly Id="198" Name="" Type="Outline" Layer="SsTop" LineWidth="100000bu">
+      <Crn X="16500000bu" Y="4750000bu" />
+      <Crn X="18500000bu" Y="4750000bu" />
+      <Crn X="19750000bu" Y="3500000bu" />
+      <Crn X="19750000bu" Y="1500000bu" />
+      <Crn X="18500000bu" Y="250000bu" />
+      <Crn X="16500000bu" Y="250000bu" />
+      <Crn X="15250000bu" Y="1500000bu" />
+      <Crn X="15250000bu" Y="3500000bu" />
+      <Crn X="16500000bu" Y="4750000bu" />
+    </Poly>
+    <Text Id="199" String="BUZZ" Rot="0" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="16250000bu" Y="3125000bu" />
+    <Text Id="200" String="DANGERFLITE" Rot="0" TextHeight="1000000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="20250000bu" Y="500000bu" />
+    <Text Id="201" String="GCU rev2" Rot="0" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="28625000bu" Y="500000bu" />
+    <Pad Id="202" X="22000000bu" Y="3000000bu" Name="_PAD16" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="203" X="23000000bu" Y="3000000bu" Name="_PAD17" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="204" X="24000000bu" Y="3000000bu" Name="_PAD18" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="205" X="25000000bu" Y="3000000bu" Name="_PAD19" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="206" X="26000000bu" Y="3000000bu" Name="_PAD20" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="207" X="27000000bu" Y="3000000bu" Name="_PAD21" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="208" X="28000000bu" Y="3000000bu" Name="_PAD22" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="209" X="29000000bu" Y="3000000bu" Name="_PAD23" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="210" X="30000000bu" Y="3000000bu" Name="_PAD24" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="211" X="31000000bu" Y="3000000bu" Name="_PAD25" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="212" X="32000000bu" Y="3000000bu" Name="_PAD26" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="213" X="33000000bu" Y="3000000bu" Name="_PAD27" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="214" X="34000000bu" Y="3000000bu" Name="_PAD28" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="215" X="35000000bu" Y="3000000bu" Name="_PAD29" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="216" X="36000000bu" Y="3000000bu" Name="_PAD30" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="217" X="22000000bu" Y="9000000bu" Name="_PAD61" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="218" X="23000000bu" Y="9000000bu" Name="_PAD66" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="219" X="24000000bu" Y="9000000bu" Name="_PAD69" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="220" X="25000000bu" Y="9000000bu" Name="_PAD70" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="221" X="26000000bu" Y="9000000bu" Name="_PAD79" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="222" X="27000000bu" Y="9000000bu" Name="_PAD80" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="223" X="28000000bu" Y="9000000bu" Name="_PAD81" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="224" X="29000000bu" Y="9000000bu" Name="_PAD82" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="225" X="30000000bu" Y="9000000bu" Name="_PAD83" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="226" X="31000000bu" Y="9000000bu" Name="_PAD84" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="227" X="32000000bu" Y="9000000bu" Name="_PAD85" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="228" X="33000000bu" Y="9000000bu" Name="_PAD86" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="229" X="34000000bu" Y="9000000bu" Name="_PAD87" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="230" X="35000000bu" Y="9000000bu" Name="_PAD88" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="231" X="36000000bu" Y="9000000bu" Name="_PAD89" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Poly Id="232" Name="" Type="Outline" Layer="SsTop" LineWidth="100000bu">
+      <Crn X="20000000bu" Y="9500000bu" />
+      <Crn X="37000000bu" Y="9500000bu" />
+      <Crn X="37000000bu" Y="7500000bu" />
+      <Crn X="37500000bu" Y="7500000bu" />
+      <Crn X="37500000bu" Y="4500000bu" />
+      <Crn X="37000000bu" Y="4500000bu" />
+      <Crn X="37000000bu" Y="2500000bu" />
+      <Crn X="20000000bu" Y="2500000bu" />
+      <Crn X="20000000bu" Y="9500000bu" />
+    </Poly>
+    <Pad Id="233" X="21000000bu" Y="6000000bu" Name="_PAD90" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="234" X="21000000bu" Y="7000000bu" Name="_PAD91" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="False" Thermals="True" />
+    <Pad Id="235" X="21000000bu" Y="5000000bu" Name="_PAD92" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="236" X="22000000bu" Y="5000000bu" Name="_PAD93" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="237" X="22000000bu" Y="6000000bu" Name="_PAD94" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="238" X="22000000bu" Y="7000000bu" Name="_PAD95" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Poly Id="239" Name="" Type="Outline" Layer="Bot" LineWidth="100000bu">
+      <Crn X="13000000bu" Y="10000000bu" />
+      <Crn X="10500000bu" Y="10000000bu" />
+      <Crn X="9000000bu" Y="8500000bu" />
+      <Crn X="9000000bu" Y="6500000bu" />
+      <Crn X="9500000bu" Y="6500000bu" />
+    </Poly>
+    <Poly Id="240" Name="" Type="Outline" Layer="Top" LineWidth="200000bu">
+      <Crn X="16000000bu" Y="8500000bu" />
+      <Crn X="11000000bu" Y="8500000bu" />
+      <Crn X="9750000bu" Y="7250000bu" />
+    </Poly>
+    <Poly Id="242" Name="" Type="Outline" Layer="Top" LineWidth="200000bu">
+      <Crn X="25000000bu" Y="3000000bu" />
+      <Crn X="25000000bu" Y="2500000bu" />
+      <Crn X="24500000bu" Y="2000000bu" />
+      <Crn X="20000000bu" Y="2000000bu" />
+      <Crn X="19500000bu" Y="2500000bu" />
+      <Crn X="19500000bu" Y="3500000bu" />
+      <Crn X="19000000bu" Y="4000000bu" />
+      <Crn X="19000000bu" Y="5500000bu" />
+      <Crn X="16000000bu" Y="8500000bu" />
+    </Poly>
+    <Poly Id="243" Name="" Type="Outline" Layer="Bot" LineWidth="200000bu">
+      <Crn X="23000000bu" Y="9000000bu" />
+      <Crn X="23000000bu" Y="9500000bu" />
+      <Crn X="23500000bu" Y="10000000bu" />
+      <Crn X="26000000bu" Y="10000000bu" />
+      <Crn X="27000000bu" Y="11000000bu" />
+      <Crn X="27000000bu" Y="12000000bu" />
+    </Poly>
+    <Poly Id="244" Name="" Type="Outline" Layer="Top" LineWidth="100000bu">
+      <Crn X="16500000bu" Y="2500000bu" />
+      <Crn X="18500000bu" Y="500000bu" />
+      <Crn X="32250000bu" Y="500000bu" />
+      <Crn X="33000000bu" Y="1250000bu" />
+      <Crn X="33000000bu" Y="3000000bu" />
+    </Poly>
+    <Pad Id="245" X="16000000bu" Y="9500000bu" Name="_PAD96" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="246" X="18000000bu" Y="9500000bu" Name="_PAD97" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Poly Id="247" Name="" Type="Outline" Layer="Top" LineWidth="200000bu">
+      <Crn X="16000000bu" Y="8500000bu" />
+      <Crn X="16000000bu" Y="9500000bu" />
+    </Poly>
+    <Poly Id="248" Name="" Type="Outline" Layer="Bot" LineWidth="100000bu">
+      <Crn X="22000000bu" Y="6000000bu" />
+      <Crn X="22500000bu" Y="6000000bu" />
+      <Crn X="23000000bu" Y="5500000bu" />
+      <Crn X="23000000bu" Y="4500000bu" />
+      <Crn X="22500000bu" Y="4000000bu" />
+      <Crn X="15000000bu" Y="4000000bu" />
+      <Crn X="14000000bu" Y="5000000bu" />
+      <Crn X="11500000bu" Y="5000000bu" />
+      <Crn X="10500000bu" Y="6000000bu" />
+    </Poly>
+    <Poly Id="249" Name="" Type="Outline" Layer="Bot" LineWidth="100000bu">
+      <Crn X="21000000bu" Y="6000000bu" />
+      <Crn X="15500000bu" Y="6000000bu" />
+      <Crn X="13500000bu" Y="8000000bu" />
+      <Crn X="11500000bu" Y="8000000bu" />
+      <Crn X="11000000bu" Y="7500000bu" />
+    </Poly>
+    <Poly Id="250" Name="" Type="Outline" Layer="Top" LineWidth="100000bu">
+      <Crn X="11000000bu" Y="6500000bu" />
+      <Crn X="12000000bu" Y="5500000bu" />
+      <Crn X="14500000bu" Y="5500000bu" />
+      <Crn X="17500000bu" Y="2500000bu" />
+      <Crn X="17500000bu" Y="2000000bu" />
+      <Crn X="18500000bu" Y="1000000bu" />
+      <Crn X="30250000bu" Y="1000000bu" />
+      <Crn X="31000000bu" Y="1750000bu" />
+      <Crn X="31000000bu" Y="3000000bu" />
+    </Poly>
+    <Poly Id="251" Name="" Type="Outline" Layer="Top" LineWidth="100000bu">
+      <Crn X="12000000bu" Y="7500000bu" />
+      <Crn X="12500000bu" Y="8000000bu" />
+      <Crn X="13500000bu" Y="8000000bu" />
+      <Crn X="17875000bu" Y="3625000bu" />
+      <Crn X="17875000bu" Y="2125000bu" />
+      <Crn X="18500000bu" Y="1500000bu" />
+      <Crn X="25000000bu" Y="1500000bu" />
+      <Crn X="26000000bu" Y="2500000bu" />
+      <Crn X="26000000bu" Y="3000000bu" />
+    </Poly>
+    <Poly Id="252" Name="" Type="Outline" Layer="Top" LineWidth="100000bu">
+      <Crn X="12500000bu" Y="6500000bu" />
+      <Crn X="14000000bu" Y="6500000bu" />
+    </Poly>
+    <Poly Id="253" Name="" Type="Outline" Layer="Top" LineWidth="100000bu">
+      <Crn X="27000000bu" Y="3000000bu" />
+      <Crn X="23500000bu" Y="6500000bu" />
+      <Crn X="20000000bu" Y="6500000bu" />
+    </Poly>
+    <Pad Id="254" X="19625000bu" Y="5250000bu" Name="_PAD98" Width="393700bu" Height="393700bu" Drill="196850bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="255" X="14000000bu" Y="6500000bu" Name="_PAD99" Width="393700bu" Height="393700bu" Drill="196850bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Poly Id="256" Name="" Type="Outline" Layer="Top" LineWidth="100000bu">
+      <Crn X="19625000bu" Y="5250000bu" />
+      <Crn X="19625000bu" Y="6125000bu" />
+      <Crn X="20000000bu" Y="6500000bu" />
+    </Poly>
+    <Poly Id="257" Name="" Type="Outline" Layer="Bot" LineWidth="100000bu">
+      <Crn X="14000000bu" Y="6500000bu" />
+      <Crn X="15250000bu" Y="5250000bu" />
+      <Crn X="19625000bu" Y="5250000bu" />
+    </Poly>
+    <Poly Id="258" Name="" Type="Outline" Layer="Top" LineWidth="100000bu">
+      <Crn X="18000000bu" Y="9500000bu" />
+      <Crn X="19500000bu" Y="8000000bu" />
+      <Crn X="23000000bu" Y="8000000bu" />
+      <Crn X="28000000bu" Y="3000000bu" />
+    </Poly>
+    <Text Id="259" String="GND" Rot="0" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="4250000bu" Y="17500000bu" />
+    <Text Id="260" String="BTN" Rot="0" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="16125000bu" Y="9875000bu" />
+    <Pad Id="261" X="17000000bu" Y="5625000bu" Name="_PAD101" Width="393700bu" Height="393700bu" Drill="196850bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Poly Id="262" Name="" Type="Outline" Layer="Bot" LineWidth="100000bu">
+      <Crn X="17000000bu" Y="5625000bu" />
+      <Crn X="15375000bu" Y="5625000bu" />
+      <Crn X="13750000bu" Y="7250000bu" />
+      <Crn X="13250000bu" Y="7250000bu" />
+      <Crn X="13000000bu" Y="7500000bu" />
+    </Poly>
+    <Poly Id="263" Name="" Type="Outline" Layer="Top" LineWidth="100000bu">
+      <Crn X="17000000bu" Y="5625000bu" />
+      <Crn X="17000000bu" Y="6500000bu" />
+    </Poly>
+    <Pad Id="264" X="17000000bu" Y="6500000bu" Name="_PAD102" Width="393700bu" Height="393700bu" Drill="196850bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Poly Id="265" Name="" Type="Outline" Layer="Bot" LineWidth="100000bu">
+      <Crn X="17000000bu" Y="6500000bu" />
+      <Crn X="25500000bu" Y="6500000bu" />
+      <Crn X="29000000bu" Y="3000000bu" />
+    </Poly>
+    <Poly Id="266" Name="" Type="Outline" Layer="Top" LineWidth="100000bu">
+      <Crn X="33000000bu" Y="9000000bu" />
+      <Crn X="33000000bu" Y="9500000bu" />
+      <Crn X="31500000bu" Y="11000000bu" />
+      <Crn X="29500000bu" Y="11000000bu" />
+      <Crn X="27500000bu" Y="13000000bu" />
+      <Crn X="18000000bu" Y="13000000bu" />
+      <Crn X="14000000bu" Y="9000000bu" />
+      <Crn X="10500000bu" Y="9000000bu" />
+    </Poly>
+    <Poly Id="268" Name="" Type="Outline" Layer="SsTop" LineWidth="100000bu">
+      <Crn X="8000000bu" Y="8750000bu" />
+      <Crn X="8000000bu" Y="8250000bu" />
+      <Crn X="8750000bu" Y="8250000bu" />
+      <Crn X="8750000bu" Y="8750000bu" />
+      <Crn X="8000000bu" Y="8750000bu" />
+    </Poly>
+    <Pad Id="269" X="9000000bu" Y="8500000bu" Name="_PAD103" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="270" X="7750000bu" Y="8500000bu" Name="_PAD104" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Text Id="271" String="TEMP" Rot="0" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="4000000bu" Y="9500000bu" />
+    <Poly Id="274" Name="" Type="Outline" Layer="Top" LineWidth="200000bu">
+      <Crn X="24000000bu" Y="12000000bu" />
+      <Crn X="24000000bu" Y="11000000bu" />
+      <Crn X="25000000bu" Y="10000000bu" />
+      <Crn X="25000000bu" Y="9000000bu" />
+    </Poly>
+    <Poly Id="275" Name="" Type="Outline" Layer="Top" LineWidth="200000bu">
+      <Crn X="13000000bu" Y="16500000bu" />
+      <Crn X="14750000bu" Y="16500000bu" />
+    </Poly>
+    <Poly Id="276" Name="" Type="Outline" Layer="Bot" LineWidth="200000bu">
+      <Crn X="13250000bu" Y="10000000bu" />
+      <Crn X="15000000bu" Y="10000000bu" />
+      <Crn X="16000000bu" Y="11000000bu" />
+      <Crn X="18500000bu" Y="11000000bu" />
+    </Poly>
+    <Text Id="277" String="DIAG" Rot="0" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="4250000bu" Y="3500000bu" />
+    <Poly Id="278" Name="" Type="Outline" Layer="Top" LineWidth="100000bu">
+      <Crn X="25000000bu" Y="12125000bu" />
+      <Crn X="25000000bu" Y="11500000bu" />
+      <Crn X="26500000bu" Y="10000000bu" />
+      <Crn X="29500000bu" Y="10000000bu" />
+      <Crn X="30000000bu" Y="9500000bu" />
+      <Crn X="30000000bu" Y="9000000bu" />
+    </Poly>
+    <Poly Id="279" Name="" Type="Outline" Layer="Top" LineWidth="100000bu">
+      <Crn X="26000000bu" Y="12000000bu" />
+      <Crn X="26000000bu" Y="11500000bu" />
+      <Crn X="27000000bu" Y="10500000bu" />
+      <Crn X="30000000bu" Y="10500000bu" />
+      <Crn X="31000000bu" Y="9500000bu" />
+      <Crn X="31000000bu" Y="9000000bu" />
+    </Poly>
+    <Poly Id="280" Name="" Type="Outline" Layer="Bot" LineWidth="100000bu">
+      <Crn X="18500000bu" Y="2500000bu" />
+      <Crn X="19000000bu" Y="2000000bu" />
+      <Crn X="29750000bu" Y="2000000bu" />
+      <Crn X="30000000bu" Y="2250000bu" />
+      <Crn X="30000000bu" Y="3000000bu" />
+    </Poly>
+    <Poly Id="281" Name="" Type="Outline" Layer="Bot" LineWidth="100000bu">
+      <Crn X="4000000bu" Y="4000000bu" />
+      <Crn X="4500000bu" Y="4000000bu" />
+      <Crn X="5000000bu" Y="3500000bu" />
+      <Crn X="5000000bu" Y="1750000bu" />
+      <Crn X="5500000bu" Y="1250000bu" />
+      <Crn X="31750000bu" Y="1250000bu" />
+      <Crn X="32000000bu" Y="1500000bu" />
+      <Crn X="32000000bu" Y="3000000bu" />
+    </Poly>
+    <Pad Id="282" X="15750000bu" Y="12750000bu" Name="_PAD105" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="283" X="15750000bu" Y="14000000bu" Name="_PAD106" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="284" X="15000000bu" Y="18750000bu" Name="_PAD107" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="285" X="16250000bu" Y="18750000bu" Name="_PAD108" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Poly Id="286" Name="" Type="Outline" Layer="SsTop" LineWidth="100000bu">
+      <Crn X="15500000bu" Y="13750000bu" />
+      <Crn X="15500000bu" Y="13000000bu" />
+      <Crn X="16000000bu" Y="13000000bu" />
+      <Crn X="16000000bu" Y="13750000bu" />
+      <Crn X="15500000bu" Y="13750000bu" />
+      <Crn X="15500000bu" Y="13750000bu" />
+    </Poly>
+    <Poly Id="287" Name="" Type="Outline" Layer="SsTop" LineWidth="100000bu">
+      <Crn X="15250000bu" Y="19125000bu" />
+      <Crn X="15250000bu" Y="18375000bu" />
+      <Crn X="15875000bu" Y="18375000bu" />
+      <Crn X="16000000bu" Y="18375000bu" />
+      <Crn X="16000000bu" Y="19125000bu" />
+      <Crn X="15250000bu" Y="19125000bu" />
+      <Crn X="15250000bu" Y="19125000bu" />
+    </Poly>
+    <Poly Id="288" Name="" Type="Outline" Layer="Top" LineWidth="100000bu">
+      <Crn X="16250000bu" Y="18750000bu" />
+      <Crn X="16250000bu" Y="15500000bu" />
+      <Crn X="15750000bu" Y="15000000bu" />
+      <Crn X="15750000bu" Y="14250000bu" />
+    </Poly>
+    <Text Id="289" String="10K" Rot="0" TextHeight="600000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="7875000bu" Y="8750000bu" />
+    <Text Id="290" String="30K" Rot="0" TextHeight="600000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="15000000bu" Y="17625000bu" />
+    <Text Id="291" String="7.5K" Rot="0" TextHeight="600000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="14375000bu" Y="13125000bu" />
+    <Pad Id="292" X="17000000bu" Y="14250000bu" Name="_PAD1" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="293" X="17000000bu" Y="15500000bu" Name="_PAD2" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="294" X="17000000bu" Y="13000000bu" Name="_PAD3" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Text Id="295" String="SUPPLY" Rot="0" TextHeight="600000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="17375000bu" Y="15125000bu" />
+    <Text Id="296" String="REG-5V" Rot="0" TextHeight="600000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="17375000bu" Y="13875000bu" />
+    <Text Id="297" String="GND" Rot="0" TextHeight="600000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="17375000bu" Y="12625000bu" />
+    <Poly Id="299" Name="" Type="Outline" Layer="Top" LineWidth="200000bu">
+      <Crn X="15750000bu" Y="12750000bu" />
+      <Crn X="16250000bu" Y="12750000bu" />
+      <Crn X="16500000bu" Y="13000000bu" />
+      <Crn X="17000000bu" Y="13000000bu" />
+    </Poly>
+    <Poly Id="300" Name="" Type="Outline" Layer="Bot" LineWidth="200000bu">
+      <Crn X="17000000bu" Y="15500000bu" />
+      <Crn X="15000000bu" Y="17500000bu" />
+      <Crn X="15000000bu" Y="18750000bu" />
+    </Poly>
+    <Poly Id="301" Name="" Type="Outline" Layer="Top" LineWidth="200000bu">
+      <Crn X="13750000bu" Y="18750000bu" />
+      <Crn X="15000000bu" Y="18750000bu" />
+    </Poly>
+    <Poly Id="303" Name="" Type="Outline" Layer="Bot" LineWidth="100000bu">
+      <Crn X="32000000bu" Y="8875000bu" />
+      <Crn X="32000000bu" Y="9500000bu" />
+      <Crn X="30750000bu" Y="10750000bu" />
+      <Crn X="29375000bu" Y="10750000bu" />
+      <Crn X="27375000bu" Y="12750000bu" />
+      <Crn X="19250000bu" Y="12750000bu" />
+      <Crn X="17750000bu" Y="14250000bu" />
+      <Crn X="17750000bu" Y="16000000bu" />
+      <Crn X="16250000bu" Y="17500000bu" />
+    </Poly>
+    <Pad Id="304" X="16250000bu" Y="17500000bu" Name="_PAD100" Width="393700bu" Height="393700bu" Drill="196850bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Poly Id="305" Name="" Type="Outline" Layer="SsTop" LineWidth="100000bu">
+      <Crn X="29527500bu" Y="18110200bu" />
+      <Crn X="36220400bu" Y="18110200bu" />
+      <Crn X="36220400bu" Y="10629900bu" />
+      <Crn X="20078700bu" Y="10629900bu" />
+      <Crn X="20078700bu" Y="18110200bu" />
+      <Crn X="29527500bu" Y="18110200bu" />
+    </Poly>
+    <Pad Id="306" X="18700750bu" Y="11614150bu" Name="_PAD4" Width="750000bu" Height="250000bu" Drill="0bu" IsDrillOffset="False" Layer="Top" Rot="0" IsRound="False" Thermals="True" />
+    <Poly Id="307" Name="" Type="Outline" Layer="Top" LineWidth="200000bu">
+      <Crn X="18897600bu" Y="11614150bu" />
+      <Crn X="19250000bu" Y="11500000bu" />
+      <Crn X="19500000bu" Y="11500000bu" />
+      <Crn X="19750000bu" Y="11250000bu" />
+      <Crn X="19750000bu" Y="10500000bu" />
+      <Crn X="20000000bu" Y="10250000bu" />
+      <Crn X="21653500bu" Y="10236200bu" />
+      <Crn X="22047200bu" Y="9842500bu" />
+      <Crn X="22047200bu" Y="8858250bu" />
+    </Poly>
+    <Text Id="308" String="VIN" Rot="0" TextHeight="400000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="19103400bu" Y="11257200bu" />
+    <Poly Id="309" Name="" Type="Outline" Layer="SsTop" LineWidth="100000bu">
+      <Crn X="16535400bu" Y="16141700bu" />
+      <Crn X="16535400bu" Y="12204700bu" />
+      <Crn X="17322800bu" Y="12204700bu" />
+      <Crn X="17322800bu" Y="16141700bu" />
+      <Crn X="16535400bu" Y="16141700bu" />
+      <Crn X="16535400bu" Y="16141700bu" />
+    </Poly>
+    <Pad Id="708" X="14000000bu" Y="9500000bu" Name="_PAD109" Width="393700bu" Height="393700bu" Drill="196850bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Poly Id="714" Name="" Type="Outline" Layer="Top" LineWidth="500000bu">
+      <Crn X="8000000bu" Y="21000000bu" />
+      <Crn X="4000000bu" Y="17000000bu" />
+      <Crn X="1750000bu" Y="17000000bu" />
+      <Crn X="1250000bu" Y="16500000bu" />
+      <Crn X="1250000bu" Y="14500000bu" />
+      <Crn X="1750000bu" Y="14000000bu" />
+      <Crn X="2250000bu" Y="14000000bu" />
+    </Poly>
+    <Poly Id="715" Name="" Type="Outline" Layer="Top" LineWidth="500000bu">
+      <Crn X="4000000bu" Y="16000000bu" />
+      <Crn X="6750000bu" Y="18750000bu" />
+      <Crn X="13750000bu" Y="18750000bu" />
+    </Poly>
+    <Poly Id="716" Name="" Type="Outline" Layer="Top" LineWidth="100000bu">
+      <Crn X="6750000bu" Y="8500000bu" />
+      <Crn X="6500000bu" Y="8750000bu" />
+      <Crn X="6500000bu" Y="9500000bu" />
+      <Crn X="6000000bu" Y="10000000bu" />
+      <Crn X="4000000bu" Y="10000000bu" />
+    </Poly>
+    <Poly Id="717" Name="" Type="Outline" Layer="Top" LineWidth="500000bu">
+      <Crn X="13750000bu" Y="12250000bu" />
+      <Crn X="10500000bu" Y="12250000bu" />
+      <Crn X="9250000bu" Y="11000000bu" />
+      <Crn X="1000000bu" Y="11000000bu" />
+    </Poly>
+    <Poly Id="718" Name="" Type="Outline" Layer="Top" LineWidth="100000bu">
+      <Crn X="16000000bu" Y="9500000bu" />
+      <Crn X="16000000bu" Y="9500000bu" />
+    </Poly>
+    <Poly Id="719" Name="" Type="Outline" Layer="Bot" LineWidth="200000bu">
+      <Crn X="14000000bu" Y="9500000bu" />
+      <Crn X="16000000bu" Y="9500000bu" />
+    </Poly>
+    <Poly Id="723" Name="" Type="Outline" Layer="Top" LineWidth="500000bu">
+      <Crn X="2250000bu" Y="18000000bu" />
+      <Crn X="1250000bu" Y="18000000bu" />
+      <Crn X="500000bu" Y="17250000bu" />
+      <Crn X="500000bu" Y="11500000bu" />
+      <Crn X="1000000bu" Y="11000000bu" />
+    </Poly>
+    <Poly Id="724" Name="" Type="Outline" Layer="Top" LineWidth="200000bu">
+      <Crn X="14000000bu" Y="12000000bu" />
+      <Crn X="14000000bu" Y="9500000bu" />
+    </Poly>
+    <Poly Id="726" Name="" Type="Outline" Layer="Top" LineWidth="500000bu">
+      <Crn X="3750000bu" Y="12000000bu" />
+      <Crn X="7500000bu" Y="12000000bu" />
+      <Crn X="8000000bu" Y="12500000bu" />
+      <Crn X="8000000bu" Y="14500000bu" />
+    </Poly>
+    <Poly Id="727" Name="" Type="Outline" Layer="Top" LineWidth="100000bu">
+      <Crn X="6750000bu" Y="8500000bu" />
+      <Crn X="7750000bu" Y="8500000bu" />
+      <Crn X="8250000bu" Y="9000000bu" />
+      <Crn X="10500000bu" Y="9000000bu" />
+    </Poly>
+    <Pad Id="728" X="17250000bu" Y="18000000bu" Name="_PAD5" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Pad Id="731" X="18250000bu" Y="18000000bu" Name="_PAD6" Width="750000bu" Height="750000bu" Drill="400000bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Poly Id="735" Name="" Type="Outline" Layer="Top" LineWidth="200000bu">
+      <Crn X="17250000bu" Y="18000000bu" />
+      <Crn X="17250000bu" Y="17000000bu" />
+      <Crn X="17750000bu" Y="16500000bu" />
+      <Crn X="17750000bu" Y="15000000bu" />
+      <Crn X="17000000bu" Y="14250000bu" />
+    </Poly>
+    <Poly Id="736" Name="" Type="Outline" Layer="Top" LineWidth="200000bu">
+      <Crn X="18250000bu" Y="18000000bu" />
+      <Crn X="18250000bu" Y="14250000bu" />
+      <Crn X="17000000bu" Y="13000000bu" />
+    </Poly>
+    <Text Id="737" String="O" Rot="90" TextHeight="2500000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="19250000bu" Y="17000000bu" />
+    <Text Id="739" String="+  -" Rot="0" TextHeight="1000000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="17000000bu" Y="18000000bu" />
+    <Text Id="741" String="C1" Rot="0" TextHeight="600000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="18750000bu" Y="17750000bu" />
+    <Poly Id="743" Name="" Type="Outline" Layer="Top" LineWidth="200000bu">
+      <Crn X="15750000bu" Y="12750000bu" />
+      <Crn X="15250000bu" Y="12750000bu" />
+      <Crn X="14750000bu" Y="12250000bu" />
+      <Crn X="14000000bu" Y="12250000bu" />
+    </Poly>
+    <Poly Id="744" Name="" Type="Outline" Layer="Bot" LineWidth="200000bu">
+      <Crn X="14750000bu" Y="16500000bu" />
+      <Crn X="14750000bu" Y="10000000bu" />
+    </Poly>
+    <Pad Id="746" X="18700750bu" Y="12401550bu" Name="_PAD7" Width="750000bu" Height="250000bu" Drill="0bu" IsDrillOffset="False" Layer="Top" Rot="0" IsRound="False" Thermals="True" />
+    <Poly Id="751" Name="" Type="Outline" Layer="Bot" LineWidth="200000bu">
+      <Crn X="18500000bu" Y="11000000bu" />
+      <Crn X="22750000bu" Y="11000000bu" />
+      <Crn X="23000000bu" Y="11250000bu" />
+      <Crn X="23000000bu" Y="11750000bu" />
+      <Crn X="23250000bu" Y="12000000bu" />
+      <Crn X="24000000bu" Y="12000000bu" />
+    </Poly>
+    <Pad Id="754" X="18700750bu" Y="12007850bu" Name="_PAD8" Width="750000bu" Height="250000bu" Drill="0bu" IsDrillOffset="False" Layer="Top" Rot="0" IsRound="False" Thermals="True" />
+    <Poly Id="756" Name="" Type="Outline" Layer="Top" LineWidth="200000bu">
+      <Crn X="18897600bu" Y="12401550bu" />
+      <Crn X="19250000bu" Y="12500000bu" />
+      <Crn X="22750000bu" Y="12500000bu" />
+      <Crn X="23250000bu" Y="12000000bu" />
+      <Crn X="23750000bu" Y="12000000bu" />
+    </Poly>
+    <Text Id="758" String="+5V" Rot="0" TextHeight="400000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="19060000bu" Y="12210000bu" />
+    <Poly Id="760" Name="" Type="Outline" Layer="Bot" LineWidth="200000bu">
+      <Crn X="17000000bu" Y="14250000bu" />
+      <Crn X="17750000bu" Y="13500000bu" />
+      <Crn X="17750000bu" Y="12000000bu" />
+    </Poly>
+    <Poly Id="761" Name="" Type="Outline" Layer="Top" LineWidth="200000bu">
+      <Crn X="18500000bu" Y="12000000bu" />
+      <Crn X="17750000bu" Y="12000000bu" />
+    </Poly>
+    <Pad Id="763" X="17750000bu" Y="12000000bu" Name="_PAD110" Width="393700bu" Height="393700bu" Drill="196850bu" IsDrillOffset="False" Layer="AllLayers" Rot="0" IsRound="True" Thermals="True" />
+    <Text Id="766" String="SUP" Rot="0" TextHeight="400000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="19130000bu" Y="11750000bu" />
+    <Text Id="776" String="BTN" Rot="0" TextHeight="800000bu" LineWidth="100000bu" Mirrored="False" Layer="SsTop" X="4000000bu" Y="7500000bu" />
+    <Poly Id="778" Name="" Type="Outline" Layer="Top" LineWidth="100000bu">
+      <Crn X="4000000bu" Y="8000000bu" />
+      <Crn X="9750000bu" Y="8000000bu" />
+      <Crn X="10500000bu" Y="8750000bu" />
+      <Crn X="14250000bu" Y="8750000bu" />
+      <Crn X="15500000bu" Y="10000000bu" />
+      <Crn X="17500000bu" Y="10000000bu" />
+      <Crn X="18000000bu" Y="9500000bu" />
+    </Poly>
+  </Board>
+  <RulesDeck ServiceId="0" MaxLayers="54" MinBdSizeDimA="0" MinBdSizeDimB="0" MaxBdSizeDimA="2147483647" MaxBdSizeDimB="2147483647" MinTrace="80000" MinSpace="80000" MinDrillDiam="135000" MaxDrillDiam="2500000" MinAnnular="70000" MaxDrillsSqIn="0" MinRoutingBitDiam="0" MinDistToEdge="200000" />
+  <RulesDeck ServiceId="1" BoardQty="10" TurnTime="5" LayerCount="2" BoardMaterial="FR4" BoardThickness="1.57mm" SurfaceFinish="HASL" CopperWeight="1oz" SoldermaskSides="TopAndBottom" SoldermaskColor="Green" SoldermaskType="LPI" SilkscreenSides="TopAndBottom" SilkscreenColor="White" EdgePlating="False" ITAR="False" FlyingProbeTest="False" FileType="gbr" />
+  <RulesDeck ServiceId="3" BoardQty="10" TurnTime="5" LayerCount="2" BoardMaterial="FR4" BoardThickness="1.6mm" SurfaceFinish="HASL" CopperWeight="1oz" SoldermaskSides="TopAndBottom" SoldermaskColor="Green" SoldermaskType="LPI" SilkscreenSides="TopAndBottom" SilkscreenColor="White" EdgePlating="False" ITAR="False" FileType="gbr" />
+  <SchemeitBOMParts />
+</ElectronicDesign>
